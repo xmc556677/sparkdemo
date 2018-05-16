@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.msgpack:jackson-dataformat-msgpack:0.8.13:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/jackson-dataformat-msgpack/bundles/jackson-dataformat-msgpack-0.8.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

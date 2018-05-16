@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: io.pkts:pkts-core:3.0.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.pkts/pkts-core/jars/pkts-core-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

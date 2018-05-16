@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://hmaster.hbase:9000/hbase</value>
+    </property>
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>hmaster.hbase,hslave04.hbase,hslave08.hbase,hslave12.hbase,hslave15.hbase</value>
+    </property>
+    <property>
+        <name>mapreduce.output.fileoutputformat.outputdir</name>
+        <value>/tmp</value>
+    </property>
+    <property>
+        <name>hbase.client.write.buffer</name>
+        <value>52428800</value>
+    </property>
+    <property>
+        <name>hbase.rpc.timeout</name>
+        <value>1000</value>
+    </property>
+    <property></property>
+
+    <!-- Put any other property here, it will be used -->
+</configuration>
